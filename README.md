@@ -1,3 +1,6 @@
+Original Repository : Datastax Cassandra Istio SNI routing example
+https://github.com/christian-posta/dse-cass-istio-sni
+
 # Datastax Cassandra with Istio and SNI routing
 
 [Cassandra][cass] is a very popular "NoSQL" database. Cassandra is a highly distributed document database that can be tolerant to certain types of failures and scaled for data-intensive microservices. As Kubernetes has become the defacto container deployment platform for microservices, running stateful workloads like Cassandra is a common choice. There are quite a few guides showing how to [deploy Cassandra on Kubernetes as a StatefulSet][kube-stateful] but there are much fewer guides for connecting applications running outside of the Kubernetes cluster to the Cassandra database running inside the cluster. At Solo.io we help customers and prospects operationalize microservices networking and routing technology built on Envoy proxy like [Gloo][gloo] or [Istio][istio]. In this blog post, we'll dig into the details of getting a deployment of Datastax Cassandra running on Kubernetes [with TLS and SNI through Istio][istio] to enable routing from outside of the cluster.
