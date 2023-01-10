@@ -1,5 +1,5 @@
-Original Repository : Datastax Cassandra Istio SNI routing example
-https://github.com/christian-posta/dse-cass-istio-sni
+Original Repository : Datastax Cassandra Istio SNI routing example   
+https://github.com/christian-posta/dse-cass-istio-sni   
 
 # Datastax Cassandra with Istio and SNI routing
 
